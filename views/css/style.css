@@ -1,0 +1,775 @@
+/*
+dc3522
+d9cb9e
+374140
+2a2c2b
+1e1e20
+*/
+
+@font-face
+	{
+		font-family:alex;
+		src:url('../fonts/AlexBrush-Regular.ttf');
+	}
+
+@font-face
+	{
+		font-family:'josefin sans';
+		src:url('../fonts/JosefinSans-Regular.ttf');
+	}
+
+@font-face
+	{
+		font-family:'open sans';
+		src:url('../fonts/OpenSans-Regular.ttf');
+	}
+	
+@font-face
+	{
+		font-family:oxygen;
+		src:url('../fonts/Oxygen-Regular.ttf');
+	}
+
+html, body
+	{
+		width:100%;
+		height:100%;
+		min-height:100%;
+		margin:0px;
+		padding:0px;
+	}
+
+body
+	{
+		color:#000;
+		font-family:tahoma;
+		font-size:12pt;
+		overflow-y:scroll;
+		background-color:#fff;
+	}
+
+table, tbody, tr, td, th
+	{
+		padding:0px;
+		border-spacing:0px;
+	}
+
+.table
+	{
+		width:100%;
+		height:100%;
+	}
+
+form
+	{
+		padding:0px;
+		margin:0px;
+	}
+
+input[type="radio"]
+	{
+		margin:0px;
+	}
+
+input[type="submit"]
+	{
+		cursor:pointer;
+	}
+
+#frontpage_cover,
+#cover,
+#footer,
+#menu,
+#user_wrapper
+	{
+		background-color:#34495E;
+	}
+
+#frontpage_cover
+	{
+		color:#fff;
+		height:140px;
+		padding:20px;
+		text-shadow: 0px 0px 5px #000;
+		text-align:center;
+	}
+
+#frontpage_cover_topic
+	{
+		font-family:alex;
+		font-size:78pt;
+	}
+
+#frontpage_cover_text
+	{
+		position:relative;
+		top:-20px;
+		left:0px;
+		font-family:tahoma;
+		font-size:12pt;
+	}
+
+#frontpage_cover a
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+
+#frontpage_table_content
+	{
+		padding:40px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-image:url('../img/shoe_converse_bg01.jpg');
+	}
+
+#frontpage_form_wrapper
+	{
+		width:400px;
+		margin:0 auto;
+	}
+
+#frontpage_form_content
+	{
+		color:#000;
+		background-color:#eee;
+	}
+
+#frontpage_form_wrapper input[type="text"], #frontpage_form_wrapper input[type="email"], #frontpage_form_wrapper input[type="password"]
+	{
+		display:block;
+		width:200px;
+		margin:0 auto;
+		padding:10px;
+		margin-bottom:10px;
+	}
+
+#frontpage_form_wrapper input[type="submit"]
+	{
+		display:block;
+		width:100px;
+		height:33px;
+		margin:0 auto;
+	}
+
+#frontpage_form_wrapper input[type="text"], #frontpage_form_wrapper input[type="email"], #frontpage_form_wrapper input[type="password"], #frontpage_form_wrapper input[type="submit"]
+	{
+		border:1px solid #ccc;
+		background-color:#fff;
+	}
+
+.frontpage_form
+	{
+		text-align:center;
+	}
+	
+#frontpage_info, #frontpage_form_radio
+	{
+		width:200px;
+		font-size:10pt;
+		text-align:left;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+	
+#frontpage_topic_on, #frontpage_topic_off
+	{
+		font-family:'josefin sans';
+		font-size:16pt;
+		padding:10px;
+		text-align:center;
+		cursor:default;
+	}
+
+#frontpage_topic_on
+	{
+		background-color:#eee;
+	}
+
+#frontpage_topic_off
+	{
+		background-color:#ddd;
+	}
+	
+#frontpage_topic_off:hover
+	{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+
+#frontpage_form_login, #frontpage_form_register
+	{
+		padding:20px;
+	}
+
+#frontpage_about
+	{
+		width:700px;
+		margin:0 auto;
+		padding:30px;
+		background-color:#fff;
+	}
+
+#cover
+	{
+		position:relative;
+		height:160px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-image:url('../img/shoe_converse_bg02.jpg');
+	}
+
+#cover_wrap
+	{
+		padding:10px;
+		background: linear-gradient(to right, #000, transparent, transparent);
+	}
+
+#logo_wrapper
+	{
+		color:#fff;
+		text-shadow:0px 0px 5px #fff;
+		margin-bottom:20px;
+		margin-left:40px;
+	}
+
+#logo
+	{
+		font-family:alex;
+		font-size:46pt;
+		vertical-align:middle;
+		margin-right:5px;
+	}
+
+#logo a
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+
+#logo_random
+	{
+		font-family:'josefin sans';
+		font-size:16pt;
+		vertical-align:middle;
+	}
+
+#profile_status_new,
+.table_form_wrapper
+	{
+		background-color:#ccc;
+	}
+
+#user_wrapper
+	{
+		display:inline-block;
+		padding:5px;
+	}
+
+#user_image,
+#user_name
+	{
+		display:inline-block;
+		vertical-align:middle;
+	}
+
+#user_image img
+	{
+		height:70px;
+	}
+
+#user_name
+	{
+		color:#fff;
+		font-family:'josefin sans';
+		font-size:28pt;
+		margin-right:5px;
+	}
+
+#menu
+	{
+		position:relative;
+		font-family:oxygen;
+		text-align:center;
+		padding:0px;
+	}
+
+#menu a
+	{
+		display:inline-block;
+		color:#fff;
+		width:90px;
+		padding:10px;
+		text-decoration:none;
+	}
+
+#menu a:hover
+	{
+		cursor:pointer;
+		text-decoration:underline;
+	}
+
+#message_alert
+	{
+		display:hidden;
+		vertical-align:middle;
+	}
+
+#search
+	{
+		padding:5px;
+		text-align:center;
+		background-color:#eee;
+	}
+
+#search input[type="text"],
+#search button
+	{
+		display:inline-block;
+		vertical-align:middle;
+	}
+
+#search input[type="text"]
+	{
+		width:150px;
+		padding:5px;
+		border:1px solid #ccc;
+		background-color:#fff;
+	}
+
+#search button
+	{
+		cursor:pointer;
+		border:0px;
+		background-color:#ccc;
+	}
+	
+#search img
+	{
+		padding:2px;
+		width:22px;
+	}
+	
+#table_content
+	{
+		color:#000;
+		height:100%;
+		background-color:#fff;
+	}
+
+#table_wrapper
+	{
+		width:80%;
+		margin:0 auto;
+		margin-top:20px;
+	}
+
+.table_form_wrapper
+	{
+		width:230px;
+		margin:0 auto;
+		margin-bottom:10px;
+		padding:10px;
+		text-align:center;
+		vertical-align:top;
+	}
+
+.table_form_info
+	{
+		text-align:center;
+		font-size:12pt;
+		margin-bottom:20px;
+	}
+
+.table_form_wrapper input[type="text"],
+.table_form_wrapper input[type="password"],
+.table_form_wrapper input[type="email"]
+	{
+		display:block;
+		border:1px solid #ccc;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+
+.table_form_wrapper input[type="text"],
+.table_form_wrapper input[type="password"],
+.table_form_wrapper input[type="email"]
+	{
+		width:200px;
+		padding:10px;
+		background-color:#fff;
+	}
+
+.table_form_wrapper input[type="submit"]
+	{
+		color:#000;
+		width:80px;
+		padding:5px;
+		border:1px solid #000;
+		background-color:#ddd;
+	}
+
+#user_info
+	{
+		font-size:10pt;
+		padding-top:5px;
+	}
+
+#profile_status_new
+	{
+		padding:0 20px;
+		text-align:center;
+		width:400px;
+		margin:50 auto;
+	}
+
+#profile_status_new textarea
+	{
+		resize:none;
+		width:100%;
+		height:80px;
+		font-family:tahoma;
+		font-size:11pt;
+		padding:5px;
+	}
+
+#profile_status_text
+	{
+		padding:10px;
+	}
+
+#profile_status_new textarea
+	{
+		border:5px solid #ccc;
+	}
+
+#profile_status_new input[type="submit"]
+	{
+		padding:10px;
+		border:none;
+		margin:5px;
+		margin-top:0px;
+	}
+
+#profile_status_input
+	{
+		text-align:right;
+	}
+
+#profile_status_old,
+#profile_status_wrapper
+	{
+		border:1px solid #ccc;
+	}
+
+#profile_status_old
+	{
+		font-size:18pt;
+		margin-top:10px;
+		padding:5px;
+	}
+	
+#profile_status_delete,
+#profile_status_time
+	{
+		display:table-cell;
+	}
+	
+#profile_status_time
+	{
+		text-align:left;
+		width:100%;
+	}
+	
+#profile_status_wrapper
+	{
+		font-size:10pt;
+		padding:5px;
+		border-top:none;
+		background-color:#eee;
+	}
+
+#profile_status_wrapper input[type="submit"]
+	{
+		border:1px solid #dc3522;
+		background-color:#d9cb9e;
+	}
+
+.friends_status_wrapper,
+.friends_status_feed_comment,
+.friends_status_comment
+	{
+		border:1px solid #ccc;
+	}
+
+.friends_status_wrapper
+	{
+		margin-bottom:10px;
+	}
+
+.friends_status_name,
+.friends_status_feed,
+.friends_status_time,
+.friends_status_comment,
+.friends_status_avatar
+	{
+		padding:5px;
+	}
+
+.friends_status_name
+	{
+		font-size:10pt;
+		font-weight:bold;
+		padding-left:0px;
+	}
+
+.friends_status_name,
+.friends_status_avatar
+	{
+		display:table-cell;
+		vertical-align:bottom;
+	}
+
+.friends_status_avatar img
+	{
+		width:50px;
+	}
+
+.friends_status_feed
+	{
+		font-size:12pt;
+	}
+
+.friends_status_feed_comment
+	{
+		background-color:#ddd;
+		border-top:0px;
+	}
+
+.friends_status_time
+	{
+		font-size:10pt;
+		text-align:right;
+		padding:3px;
+		background-color:#eee;
+	}
+
+.friends_status_comment
+	{
+		padding:5px;
+		border-top:0px;
+	}
+
+.friends_status_comment input[type="text"],
+.friends_status_comment input[type="submit"]
+	{
+		border:2px solid #ccc;
+	}
+
+.friends_status_comment input[type="text"]
+	{
+		width:200px;
+		padding:5px;
+		margin-right:5px;
+	}
+
+.friends_status_comment input[type="submit"]
+	{
+		padding:5px;
+	}
+
+#friend_message_chat
+	{
+		font-family:alex;
+		font-size:54pt;
+		text-align:center;
+		margin-bottom:10px;
+	}
+
+#friend_message_form
+	{
+		text-align:center;
+	}
+	
+#friend_message_form textarea
+	{
+		resize:none;
+		font-family:tahoma;
+		font-size:10pt;
+		padding:5px;
+	}
+
+#friend_message_form textarea,
+#friend_message_form input[type="submit"]
+	{
+		vertical-align:middle;
+		border:2px solid #ccc;
+	}
+
+#friend_message_form input[type="submit"]
+	{
+		width:60px;
+		height:43px;
+		border-left:none;
+		background-color:#eee;
+	}
+
+#friend_wrapper
+	{
+		text-align:center;
+		margin-top:10px;
+	}
+
+.friend_list
+	{
+		display:inline-block;
+		padding:5px;
+		text-align:center;
+		vertical-align:middle;
+		background-color:#eee;
+	}
+
+.friend_list_name
+	{
+		padding:5px;
+	}
+
+.friend_list input
+	{
+		display:block;
+		color:#000;
+		font-weight:bold;
+		padding:3px;
+		border:1px solid #000;
+		background-color:#ccc;
+	}
+
+.friend_list img,
+.friend_list input
+	{
+		display:block;
+		width:100px;
+		margin:0 auto;
+	}
+
+.friend_list button
+	{
+		margin:0px;
+		padding:0px;
+		border:0px;
+		cursor:pointer;
+	}
+
+.friend_message_wrapper
+	{
+		width:50%;
+		margin:0 auto;
+	}
+
+.friend_message_name,
+.friend_message_arrow
+	{
+		display:inline-block;
+		vertical-align:middle;
+	}
+
+.friend_message_text,
+.friend_message_time
+	{
+		display:block;
+	}
+
+.friend_message_name
+	{
+		font-size:10pt;
+		padding:5px;
+		border-bottom:0px;
+	}
+
+.friend_message_text
+	{
+		color:#fff;
+		padding:10px;
+		border-radius:12px;
+		background-color:#21394C;
+	}
+
+.friend_message_time
+	{
+		font-size:10pt;
+		text-align:right;
+		padding:5px;
+		border-top:0px;
+	}
+
+#about_title
+	{
+		font-size:20pt;
+		border-bottom:1px solid #000;
+	}
+
+#about_topic
+	{
+		text-align:right;
+	}
+
+.about_text
+	{
+		margin-top:10px;
+	}
+
+#footer
+	{
+		color:#fff;
+		font-size:12pt;
+		font-weight:bold;
+		text-align:center;
+		padding:20px;
+	}
+
+#footer a
+	{
+		color:#fff;
+	}
+
+#footer a:hover
+	{
+		color:#ddd;
+	}
+
+.error
+	{
+		position:absolute;
+		padding:10px;
+		top:0px;
+		left:0px;
+		right:0px;
+		color:#fff;
+		text-align:center;
+		background-color:#dc3522;
+	}
+
+.router_stuff
+	{
+		position:absolute;
+		color:#aaa;
+		font-size:10pt;
+		top:14px;
+		right:10px;
+	}
+
+.router_txt, .router_array
+	{
+		position:fixed;
+		font-size:10pt;
+		bottom:0px;
+		padding:5px;
+		background-color:#ccc;
+	}
+
+.router_array
+	{
+		right:0px;
+	}

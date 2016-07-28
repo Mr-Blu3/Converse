@@ -1,0 +1,123 @@
+/*
+dc3522
+d9cb9e
+374140
+2a2c2b
+1e1e20
+*/
+
+@font-face
+	{
+		font-family:alex;
+		src:url('../fonts/AlexBrush-Regular.ttf');
+	}
+
+@font-face
+	{
+		font-family:'josefin sans';
+		src:url('../fonts/JosefinSans-Regular.ttf');
+	}
+
+@font-face
+	{
+		font-family:'open sans';
+		src:url('../fonts/OpenSans-Regular.ttf');
+	}
+	
+@font-face
+	{
+		font-family:oxygen;
+		src:url('../fonts/Oxygen-Regular.ttf');
+	}
+
+html, body
+	{
+		width:100%;
+		height:100%;
+		min-height:100%;
+		margin:0px;
+		padding:0px;
+	}
+
+body
+	{
+		color:#fff;
+		font-family:tahoma;
+		font-size:12pt;
+		overflow-y:scroll;
+		background-color:#839495;
+	}
+
+*
+	{
+		margin:0px;
+		padding:0px;
+	}
+
+table, tbody, tr, td, th
+	{
+		border-spacing:0px;
+	}
+
+.table
+	{
+		width:100%;
+		height:100%;
+	}
+
+#menu
+	{
+		position:absolute;
+		z-index:2;
+		top:0px;
+		left:0px;
+		right:0px;
+		font-family:oxygen;
+		font-size:20pt;
+		text-align:center;
+		background-color:#34495E;
+	}
+
+a
+	{
+		display:inline-block;
+		color:#fff;
+		text-decoration:none;
+		padding:20px;
+	}
+
+a:hover
+	{
+		color:#fff;
+		background-color:#839495;
+	}
+
+/*
+#error
+	{
+		height:100%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+#error div
+	{
+		width:70%;
+		height:70%;
+	}
+*/
+
+h1
+	{
+		color:#B4BDBD;
+		font-size:140pt;
+	}
+
+.error
+	{
+		position:relative;
+		top:-30px;
+		font-weight:bold;
+	}
+

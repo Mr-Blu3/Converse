@@ -1,0 +1,57 @@
+#cover
+	{
+		height:inherit;
+		background-size:cover;
+	}
+
+#logo_wrapper
+	{
+		margin:0px;
+	}
+
+#logo
+	{
+		font-size:24pt;
+	}
+
+#logo_random
+	{
+		display:none;
+	}
+
+#user_image img
+	{
+		height:40px;
+	}
+
+#user_name
+	{
+		color:#fff;
+		font-family:'josefin sans';
+		font-size:20pt;
+		margin-right:5px;
+	}
+
+#menu a
+	{
+		width:60px;
+		font-size:10pt;
+	}
+
+#friend_message_form textarea
+	{
+		width:200px;
+		height:50px;
+	}
+	
+#friend_message_form input[type="submit"]
+	{
+		width:50px;
+		height:50px;
+		border-left:none;
+	}
+
+.friend_list img, .friend_list input
+	{
+		width:70px;
+	}
