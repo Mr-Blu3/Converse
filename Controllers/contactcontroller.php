@@ -3,7 +3,7 @@
 class contactController{
 	
 	public function indexAction(){
-		require_once "./views/contactTemplate.php";
+		require_once "./views/contactusTemplate.php";
 	}
 	
 	public function frontAction(){

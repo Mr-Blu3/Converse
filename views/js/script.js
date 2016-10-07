@@ -40,7 +40,7 @@ $(document).ready(function(){
 	];
 	
 	if(document.getElementById("menu")){
-		var root = "http://www.converse-dev.tk/";
+		var root = "http://89.45.226.90/Converse/";
 		for(var x = 0; x < menu.length; x++){
 			var link = "<a href=" + root + menu[x].url + ">" + menu[x].txt + "</a>";
 			document.getElementById("menu").innerHTML += link;

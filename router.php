@@ -3,7 +3,7 @@
 	
 	// laddar klasserna inför sidbyte
 	function __autoload($class){
-		require_once __DIR__ . "/controllers/" . strtolower($class) . ".php";
+		require_once __DIR__ . "/Controllers/" . strtolower($class) . ".php";
 	}
 	
 	// tar ut / ur länken efter root och räknar ut hur många det är = vilken path du är i
@@ -40,7 +40,7 @@
 	* visar ifall filen finns som path:en "kräver"
 	*/
 
-	if(is_readable("./controllers/". strtolower($defaultController) . ".php")){
+	if(is_readable("./Controllers/". strtolower($defaultController) . ".php")){
 		//echo "<div class='router_txt'>readable</div>";
 	}
 	else{
@@ -61,7 +61,7 @@
 	*/
 
 	
-	if(file_exists("./controllers/". strtolower($defaultController) . ".php") && method_exists($defaultController, $defaultAction)){
+	if(file_exists("./Controllers/". strtolower($defaultController) . ".php") && method_exists($defaultController, $defaultAction)){
 		$obj = new $defaultController;
 		$obj->$defaultAction();
 	}

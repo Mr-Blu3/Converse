@@ -70,9 +70,9 @@
 										<input type="email" name="email" placeholder="email" />
 										<input type="text" name="username" placeholder="username" />
 										<div id="frontpage_form_radio">
-											<label><input type="radio" value="http://www.converse-dev.tk/views/img/default_male.png" name="avatar" id="male">Male</label>
-											<label><input type="radio" value="http://www.converse-dev.tk/views/img/default_female.png" name="avatar" id="female">Female</label>
-											<label><input type="radio" value="http://www.converse-dev.tk/views/img/default_none.jpg" name="avatar" id="none" checked>n/a</label>
+											<label><input type="radio" value="http://89.45.226.90/Converse/views/img/default_male.png" name="avatar" id="male">Male</label>
+											<label><input type="radio" value="http://89.45.226.90/Converse/views/img/default_female.png" name="avatar" id="female">Female</label>
+											<label><input type="radio" value="http://89.45.226.90/Converse/views/img/default_none.jpg" name="avatar" id="none" checked>n/a</label>
 											<!--
 											<label><input type="radio" value="0" name="avatar" id="male">Male</label><br/>
 											<label><input type="radio" value="1" name="avatar" id="female">Female</label><br/>

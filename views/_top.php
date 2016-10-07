@@ -1,10 +1,9 @@
 <?php
-	$root = "http://www.converse-dev.tk/";
+	$root = "http://89.45.226.90/Converse/";
 ?>
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="author" content="Fredrik, Pontus, Xia" />
 		<title>Let's Converse | <?=$title?></title>
 		<script src="<?=$root?>views/js/jquery-2_1_1.js" type="text/javascript"></script>
 		<script src="<?=$root?>views/js/script.js" type="text/javascript"></script>
