@@ -1,5 +1,5 @@
 <?php
-	$root = "http://89.45.226.90/Converse/";
+	$root = "http://138.68.143.251/Converse/";
 ?>
 <html>
 	<head>

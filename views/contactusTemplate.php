@@ -7,8 +7,8 @@
 		<script src="./../views/js/jquery-2_1_1.js" type="text/javascript"></script>
 		<script src="./../views/js/script.js" type="text/javascript"></script>
 		<link href="./../views/css/reset.css" rel="stylesheet" type="text/css" />
-		<link href="http://89.45.226.90/Converse/views/css/style.css" rel="stylesheet" type="text/css" />
-		<link href="http://89.45.226.90/Converse/views/css/smaller.css" rel="stylesheet" media="screen and (max-width: 800px)" type="text/css" />
+		<link href="http://138.68.143.251/Converse/views/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="http://138.68.143.251/Converse/views/css/smaller.css" rel="stylesheet" media="screen and (max-width: 800px)" type="text/css" />
 	</head>
 	<body>
 	
@@ -17,7 +17,7 @@
 				<td id="frontpage_cover">
 						
 					<div id="frontpage_cover_topic">
-						<a href="http://89.45.226.90/Converse/">Let's Converse</a><br/>
+						<a href="http://138.68.143.251/Converse/">Go Back</a><br/>
 					</div>
 					<div id="frontpage_cover_text">
 						For the conversationalist inside you.<br/>

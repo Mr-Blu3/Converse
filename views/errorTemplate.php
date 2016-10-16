@@ -12,7 +12,7 @@
 			<tr>
 				<td height="100%" align="center" valign="middle">
 					
-					<div id="menu"><a href="./">Converse</a></div>
+					<div id="menu"><a href="./">Back</a></div>
 					
 					<?php
 						

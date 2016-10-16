@@ -40,7 +40,8 @@ $(document).ready(function(){
 	];
 	
 	if(document.getElementById("menu")){
-		var root = "http://89.45.226.90/Converse/";
+		var sHostname = window.location.hostname;
+		var root = "http://"+sHostname+"/Converse/";
 		for(var x = 0; x < menu.length; x++){
 			var link = "<a href=" + root + menu[x].url + ">" + menu[x].txt + "</a>";
 			document.getElementById("menu").innerHTML += link;
